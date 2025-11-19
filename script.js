@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             preloader.style.display = 'none';
         }, 500);
     });
+    
 
     // Cursor Effect
     const cursor = document.querySelector('.cursor');
