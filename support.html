@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IoT Development Services | Your Portfolio</title>
+    <title>Support Services | Your Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -13,16 +13,16 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         :root {
-            --primary: #2196F3;
-            --secondary: #1976D2;
-            --accent: #00BCD4;
+            --primary: #4CAF50;
+            --secondary: #388E3C;
+            --accent: #8BC34A;
             --light: #f8f9fa;
             --dark: #212529;
             --success: #4bb543;
         }
 
         body {
-            background: linear-gradient(135deg, #f5f7fa 0%, #bbdefb 100%);
+            background: linear-gradient(135deg, #f5f7fa 0%, #C8E6C9 100%);
             color: var(--dark);
             line-height: 1.6;
             min-height: 100vh;
@@ -235,7 +235,7 @@
             margin-bottom: 10px;
         }
 
-        .development-process {
+        .support-process {
             background: white;
             padding: 3rem 0;
             margin: 3rem auto;
@@ -315,6 +315,33 @@
             margin-bottom: 0.5rem;
             color: var(--secondary);
         }
+        .contact-info {
+            background: white;
+            padding: 3rem 0;
+            margin: 3rem auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            max-width: 95%;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .contact-item {
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .contact-item i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.2rem;
@@ -331,6 +358,10 @@
             .process-steps {
                 flex-direction: column;
             }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -339,8 +370,8 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <i class="fas fa-microchip"></i>
-                    IoT Devices
+                    <i class="fas fa-headset"></i>
+                    Support Services
                 </div>
                 <button class="back-btn" id="backButton">
                     <a href="pservices.html" class="nav-link">Back to Services</a>
@@ -351,9 +382,9 @@
     
     <section class="hero">
         <div class="container">
-            <h1>IoT Devices</h1>
-            <p class="tagline">Connecting the Physical World to the Digital Realm</p>
-            <p>I specialize in designing and implementing Internet of Things solutions that bridge the gap between hardware and software, creating smart, connected systems for homes, industries, and cities.</p>
+            <h1>Support Services</h1>
+            <p class="tagline">Reliable Technical Support for Your Digital Solutions</p>
+            <p>I provide comprehensive technical support services to ensure your websites, applications, and IoT systems run smoothly and efficiently.</p>
         </div>
     </section>
     
@@ -361,83 +392,87 @@
         <section class="services-grid">
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fas fa-network-wired"></i>
+                    <i class="fas fa-laptop-code"></i>
                 </div>
                 <div class="service-content">
-                    <h3>IoT System Architecture</h3>
-                    <p>Design and implementation of complete IoT ecosystems from sensors to cloud.</p>
+                    <h3>Website Maintenance</h3>
+                    <p>Keep your website running smoothly with regular updates and optimizations.</p>
                     <ul class="features">
-                        <li><i class="fas fa-check"></i> Sensor Integration</li>
-                        <li><i class="fas fa-check"></i> Edge Computing Solutions</li>
-                        <li><i class="fas fa-check"></i> Network Architecture</li>
-                        <li><i class="fas fa-check"></i> Cloud Connectivity</li>
+                        <li><i class="fas fa-check"></i> Regular Updates & Backups</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                        <li><i class="fas fa-check"></i> Security Monitoring</li>
+                        <li><i class="fas fa-check"></i> Bug Fixes & Troubleshooting</li>
                     </ul>
                 </div>
             </div>
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fas fa-cloud"></i>
+                    <i class="fas fa-mobile-alt"></i>
                 </div>
                 <div class="service-content">
-                    <h3>IoT Data Analytics</h3>
-                    <p>Transform raw sensor data into actionable insights and visualizations.</p>
+                    <h3>Application Support</h3>
+                    <p>Comprehensive support for web and mobile applications.</p>
                     <ul class="features">
-                        <li><i class="fas fa-check"></i> Data Processing Pipelines</li>
-                        <li><i class="fas fa-check"></i> Real-time Dashboards</li>
-                        <li><i class="fas fa-check"></i> Predictive Analytics</li>
-                        <li><i class="fas fa-check"></i> Custom Reporting</li>
+                        <li><i class="fas fa-check"></i> Feature Enhancements</li>
+                        <li><i class="fas fa-check"></i> User Support & Training</li>
+                        <li><i class="fas fa-check"></i> Performance Monitoring</li>
+                        <li><i class="fas fa-check"></i> Emergency Fixes</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <div class="service-content">
+                    <h3>IoT System Support</h3>
+                    <p>Technical support for your Internet of Things devices and systems.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Device Configuration</li>
+                        <li><i class="fas fa-check"></i> Network Troubleshooting</li>
+                        <li><i class="fas fa-check"></i> Data Monitoring</li>
+                        <li><i class="fas fa-check"></i> System Integration</li>
                     </ul>
                 </div>
             </div>
         </section>
-        
-        <section class="development-process">
-            <div class="container">
-                <h2 class="section-title">My IoT Development Process</h2>
-                <div class="process-steps">
-                    <div class="process-step">
-                        <div class="step-number">1</div>
-                        <h3>Requirement Analysis</h3>
-                        <p>Understanding project goals, constraints, and technical requirements</p>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">2</div>
-                        <h3>Hardware Selection</h3>
-                        <p>Choosing appropriate sensors, microcontrollers, and communication modules</p>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">3</div>
-                        <h3>Software Development</h3>
-                        <p>Creating firmware, cloud services, and user interfaces</p>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number"></div>
-                        <h3>Deployment & Testing</h3>
-                        <p>Field deployment, performance testing, and optimization</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
         <section class="technologies">
             <div class="container">
-                <h2 class="section-title">IoT Technologies I Work With</h2>
+                <h2 class="section-title">Support Technologies I Work With</h2>
                 <div class="tech-grid">
                     <div class="tech-item">
-                        <i class="fas fa-microchip"></i>
-                        <h3>Arduino</h3>
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML/CSS</h3>
                     </div>
                     <div class="tech-item">
-                        <i class="fab fa-microchip"></i>
-                        <h3>CNC</h3>
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
                     </div>
                     <div class="tech-item">
-                        <i class="fas fa-microchip"></i>
-                        <h3>ESP32</h3>
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
                     </div>
                     <div class="tech-item">
-                        <i class="fas fa-wifi"></i>
-                        <h3>WiFi</h3>
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="container">
+                <h2 class="section-title">Get Support</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Support</h3>
+                        <p>code.arindam189@gmail.com</p>
+                        <p>Response within 24 hours</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone Support</h3>
+                        <p>+91 8697900630</p>
+                        <p>Available during business hours</p>
                     </div>
         </section>
     <script>
@@ -463,7 +498,7 @@
         }, observerOptions);
 
         // Observe service cards for animation
-        document.querySelectorAll('.service-card, .process-step, .showcase-item').forEach(item => {
+        document.querySelectorAll('.service-card, .process-step, .contact-item').forEach(item => {
             item.style.opacity = '0';
             item.style.transform = 'translateY(20px)';
             item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
